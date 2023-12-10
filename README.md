@@ -3,7 +3,17 @@
 Z greckiego "odkrywca". Program realizujący takie
 zadania jak dodawanie funkcji lub generowanie
 dokumentacji dla ZUPEŁNIE NIEZNANEGO systemu do którego
-kodu mamy dostęp.
+kodu mamy dostęp. W ramach narzędzia istnieją
+funkcjonalności `chat` i `apply`.
+
+Funkcjonalność `chat` potrafi:
+- Dodawać funkcje do już istniejącego kodu
+- Generować dokumentację
+- Odpowiadać na pytania dotyczące systemu
+
+Funkcjonalność `apply` potrafi:
+- Zastosować zmiany do projektu na podstawie instrukcji
+wygenerowanej przez `chat`
 
 **UWAGA:** Obecnie działa jedynie funkcjonalność `chat`,
 `apply` nie działa.
@@ -18,7 +28,22 @@ pliku `cmd_chat.py`.
 
 Domyślnie program jest skonfigurowany pod projekt
 Django-School-Management-System. Ścieżka do repozytorium
-tego projektu jest ustawiona jako `./Django-School-Management-System`.
+tego projektu jest ustawiona jako `./Django-School-Management-System/`.
+
+Żeby móc użyć programu w obecnej konfiguracji trzeba do katalogu
+głównego projektu Εξερευνητής sklonować repozytorium
+Django-School-Management-System.
+
+```
+git clone https://github.com/adigunsherif/Django-School-Management-System.git
+```
+
+Trzeba też dostarczyć klucz OpenAI API. Należy go umieścić
+w pliku `api_key.txt`.
+
+Po zrobieniu tego będzie możliwe używanie skryptu
+`./exereunetes.py`, który jest prostym CLI dla naszego
+rozwiązania.
 
 # Przykłady
 
