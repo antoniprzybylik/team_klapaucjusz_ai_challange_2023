@@ -2,7 +2,7 @@
 
 Z greckiego "odkrywca". Program realizujący takie
 zadania jak dodawanie funkcji lub generowanie
-dokumentacji dla nieznanego systemu do którego
+dokumentacji dla ZUPEŁNIE NIEZNANEGO systemu do którego
 kodu mamy dostęp.
 
 # Przykłady
