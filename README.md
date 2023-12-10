@@ -5,6 +5,21 @@ zadania jak dodawanie funkcji lub generowanie
 dokumentacji dla ZUPEŁNIE NIEZNANEGO systemu do którego
 kodu mamy dostęp.
 
+**UWAGA:** Obecnie działa jedynie funkcjonalność `chat`,
+`apply` nie działa.
+
+# Jak używać programu
+Działanie programu jest w pełni autonomiczne. Jedyne
+co musimy mu przekazać to ścieżka do katalogu z projektem,
+nazwa projektu i którtki opis projektu. W opisie projektu
+nie musimy wchodzić w żadne szczegóły techniczne. Te parametry
+ustawiamy w zmiennych `project_name` i `basic_message` w
+pliku `cmd_chat.py`.
+
+Domyślnie program jest skonfigurowany pod projekt
+Django-School-Management-System. Ścieżka do repozytorium
+tego projektu jest ustawiona jako `./Django-School-Management-System`.
+
 # Przykłady
 
 Prośba o dodanie funkcjonalności
